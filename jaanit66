@@ -1,0 +1,42 @@
+#1
+tekst = raw_input('Sisestage tekst:')
+print tekst.upper()
+print tekst.lower()
+print tekst.center(80)
+print tekst.replace(" ", "_");
+
+#2
+print tekst.upper(), len(tekst), tekst.lower()
+
+#3
+if tekst.find(" ") == -1:
+    print "Ei sisalda tyhikut!"
+else:
+    print "Sisaldab tyhikut!"
+
+if tekst.find("x") == -1:
+    print "Ei sisalda x-i!"
+else:
+    print "Sisaldab x-i!"
+
+if len(tekst) <10:
+	print "Tekst on lyhem kui kymme m2rki."
+else:
+	print "Tekst on pikem kui kymme m2rki."
+
+if tekst.isalpha() == 1 or tekst.upper() == 1:
+	print "Tekst ei sisalda mittet2hti ega suurt2hti."
+else:
+	print "Tekst sisaldab ainult mitte-t2hti ja suurt2hti."
+
+if tekst == "":
+	print "Ei sisalda muutujat"
+else:
+	print "Sisaldab muutujat"
+
+#4
+
+
+#5
+
+print tekst.count('x')
