@@ -1,0 +1,37 @@
+#1)
+text = raw_input("Sisesta tekst: ")
+print text.upper()
+print text.lower()
+print "", text.center(80, " ")
+print text.replace(" ", "_")
+
+#2)
+print text.upper(), len(text), text.lower()
+
+#3)
+if text.count("1234567890qwertyuiopasdfghjklzxcvbnm") >= 10:
+	print "Tekstis on yle kymne m2rgi"
+else:
+	print "Tekstis on alla 10-ne m2rgi"
+if text.find(" ") == -1:
+	print "Tekstis ei ole tyhik"
+else:
+	print "Tekstis on tyhik"
+
+if text == "":
+	print "Ei sisalda"
+else:
+	print "Sisaldab"
+
+if text.isalpha() == 1:
+	print "Tekst ei sisalda mitte-t2hti"
+else:
+	print "Tekst sisaldab mitte-t2hti"
+
+
+
+
+
+
+#5)
+print text.count("x")
