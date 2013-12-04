@@ -1,0 +1,10 @@
+a = int(raw_input("Sisesta 1. arv: "))
+b = int(raw_input("Sisesta 2. arv: "))
+c = int(raw_input("Mitu numbrit soovite?: "))
+f = 0
+while f < c:
+	f = f+1
+	import time
+	time.sleep(0.1)
+	from random import randint
+	print randint(a,b)
